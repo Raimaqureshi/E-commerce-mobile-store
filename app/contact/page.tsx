@@ -18,7 +18,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="bg-white container mx-auto py-10">
       <h1 className="text-4xl font-semibold text-center mb-5">Contact Us</h1>
       
       <p className="text-center text-md mb-6">
@@ -33,7 +33,7 @@ const ContactPage = () => {
 
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto bg-white p-8 shadow-lg rounded">
         <div className="mb-4">
-          <label htmlFor="name" className="block text-lg font-medium">Name</label>
+          <label htmlFor="name" className="block text-lg font-medium text-black">Name</label>
           <input
             type="text"
             id="name"
@@ -46,7 +46,7 @@ const ContactPage = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="email" className="block text-lg font-medium">Email Address</label>
+          <label htmlFor="email" className="block text-lg font-medium text-black">Email Address</label>
           <input
             type="email"
             id="email"
@@ -59,7 +59,7 @@ const ContactPage = () => {
         </div>
 
         <div className="mb-6">
-          <label htmlFor="message" className="block text-lg font-medium">Message</label>
+          <label htmlFor="message" className="block text-lg font-medium text-black">Message</label>
           <textarea
             id="message"
             value={message}

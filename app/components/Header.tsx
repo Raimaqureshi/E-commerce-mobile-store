@@ -3,7 +3,7 @@ import { FaShoppingCart } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <header className="bg-gray-700 text-white py-4">
+    <header className="bg-gray-800 text-white py-4">
       <div className="max-w-7xl mx-6 flex justify-between items-center">
         <h1 className="text-3xl font-bold">AK-Zone</h1>
 
