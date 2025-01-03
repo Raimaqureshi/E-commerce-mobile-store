@@ -19,7 +19,7 @@ const ContactPage = () => {
 
   return (
     <div className="bg-white container mx-auto py-10">
-      <h1 className="text-4xl font-semibold text-center mb-5 text-black">Contact Us</h1>
+      <h1 className="text-4xl font-semibold text-center mb-5 text-gray-900">Contact Us</h1>
       
       <p className="text-center text-md mb-6 text-black">
         We would love to hear from you! If you have any questions or suggestions, feel free to reach out. Our team is always here to assist you.

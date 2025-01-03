@@ -21,7 +21,7 @@ const CheckoutPage = () => {
       ) : (
         <div className="mt-4">
           {/* Order Summary */}
-          <h2 className="text-2xl font-semibold">Order Summary</h2>
+          <h2 className="text-2xl font-semibold text-gray-900">Order Summary</h2>
           <div>
             {cart.map((item) => (
               <div key={item.id} className="p-4 bg-white rounded-lg shadow-md mb-4">
@@ -43,7 +43,7 @@ const CheckoutPage = () => {
           ) : (
             <>
               {/* Shipping Form */}
-              <h2 className="text-2xl font-semibold mb-4">Shipping Details</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-gray-900">Shipping Details</h2>
               <form
                 onSubmit={handlePlaceOrder}
                 className="bg-white p-6 rounded-lg shadow-md"
