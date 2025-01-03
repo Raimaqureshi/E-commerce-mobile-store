@@ -9,6 +9,18 @@ const nextConfig = {
           pathname: '/**', 
         },
         {
+          protocol: 'https',
+          hostname: 'media.croma.com',
+          port: '',
+          pathname: '/**', 
+        },
+        {
+          protocol: 'https',
+          hostname: 'files.oaiusercontent.com',
+          port: '',
+          pathname: '/**', 
+        },
+        {
             protocol: 'https',
             hostname: 'static2.realme.net',
             port: '',
