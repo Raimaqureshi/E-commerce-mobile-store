@@ -10,30 +10,32 @@ const products = [
     name: "realme 13+ 5g",
     price: 100,
     images: [
-      "https://static2.realme.net/images/realme-13-plus-5g/specs/m/gold.png",
-      "https://static2.realme.net/images/realme-13-plus-5g/specs/m/purple.jpg",
+      "/images/gold.png",
+      "/images/purple.jpg",
     ],
-    colors: ["Red", "Blue"],
+    colors: ["Tan", "Purple"],
   },
   {
     id: 2,
-    name: "Product 2",
+    name: "Vivo X90 Pro",
     price: 200,
     images: [
-      "/images/product2-black.jpg",
-      "/images/product2-white.jpg",
+      "/images/vivo black.jpg",
+      "/images/vivored.jpg",
+      "/images/vivo x90.png",
     ],
-    colors: ["Black", "White"],
+    colors: ["Black", "Red" , "Blue"],
   },
   {
     id: 3,
-    name: "Product 3",
+    name: "Vivo Y25 5G",
     price: 300,
     images: [
-      "/images/purple.jpg",
-      "/purple.jpg",
+      "/images/vivo yellow.png",
+      "/images/vivo1 black.jpg",
+      "/images/vivo blue.png"
     ],
-    colors: ["Gray", "Orange"],
+    colors: ["Yellow", "Black" , "Blue"],
   },
 ];
 
