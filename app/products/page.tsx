@@ -21,7 +21,7 @@ export default function Products() {
 
   return (
     <main className="min-h-screen bg-gray-100 p-4">
-      <h1 className="text-3xl text-center font-bold text-blue-600">
+      <h1 className="text-3xl text-center font-bold text-gray-900">
         Products
       </h1>
       <div className="mt-4">
@@ -32,9 +32,9 @@ export default function Products() {
               alt={category.name} 
               className="w-full h-52 object-cover rounded-lg mb-4" 
             />
-            <h2 className="text-xl font-bold">{category.name}</h2>
+            <h2 className="text-xl font-bold text-black">{category.name}</h2>
             <Link href={category.path}
-               className="mt-2 bg-blue-600 text-white px-4 py-2 rounded inline-block">
+               className="mt-2 bg-black text-white px-4 py-2 rounded inline-block">
                 View Products
               
             </Link>

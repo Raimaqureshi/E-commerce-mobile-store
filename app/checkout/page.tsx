@@ -17,7 +17,7 @@ const CheckoutPage = () => {
     <div className="min-h-screen bg-gray-100 p-4">
       <h1 className="text-3xl text-center font-bold text-gray-900 mt-6">Checkout</h1>
       {cart.length === 0 ? (
-        <p className="text-center mt-4 py-16 text-xl">Your cart is empty!</p>
+        <p className="text-center mt-4 py-16 text-xl text-black">Your cart is empty!</p>
       ) : (
         <div className="mt-4">
           {/* Order Summary */}
